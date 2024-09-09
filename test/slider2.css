@@ -1,0 +1,23 @@
+#item1 {
+    /* background-size: cover; */
+    height: 90vh;
+}
+
+#item2 {
+    /* background-size: cover; */
+    height: 90vh;
+}
+
+#item3 {
+    /* background-size: cover; */
+    height: 90vh;
+}
+
+#item4 {
+    /* background-size: cover; */
+    height: 90vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.616);
+}
