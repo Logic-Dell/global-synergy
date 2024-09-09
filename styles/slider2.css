@@ -1,0 +1,67 @@
+.slide {
+    margin-top: -90px;
+}
+
+#item-1 {
+    background-image: url('/images/5.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#item-2 {
+    background-image: url('/images/16548.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#item-3 {
+    background-image: url('/images/16708.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#item-4 {
+    background-image: url('/images/17202.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carousel-caption {
+    width: 40rem;
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, -15%);
+    color: rgb(255, 255, 255);
+}
+
+
+.carousel-caption > p {
+    font-size: 30px;
+}
+
+.carousel-caption > a > h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.carousel-caption > a {
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-caption > a:hover {
+    color: rgb(230, 215, 7);
+}
+
+.overlay {
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.37);
+}

@@ -10,61 +10,93 @@
 
     <!-- <link rel="stylesheet" href="slider.css"> -->
 
-    <!-- <link rel="stylesheet" href="slider2.css"> -->
+    <script src="https://kit.fontawesome.com/39218ec9b8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="slider2.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/general.css">  
+    <link rel="stylesheet" href="styles/slider.css"> 
 
 </head>
 <body>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+    <nav>
+        <div class="logo">
+            <img src="images/granite-logo-white.svg" alt="#">
         </div>
+        <div class="menu">
+            <li class="menu-item"><a href="#">Construction</a></li>
+            <li class="menu-item"><a href="#">company</a></li>
+            <li class="menu-item"><a href="#">materials</a></li>
+            <li class="menu-item"><a href="#">careers</a></li>
+            <li class="menu-item"><a href="#">brands</a></li>
+            <li class="menu-item"><a href="#">newsroom</a></li>
+            <li class="menu-item"><a href="#">locations</a></li>
+            <li class="menu-item"><a href="#">investors</a></li>
+        </div>
+        <div class="search-icon">
+            <img src="images/search-icon.svg" alt="#">
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+        </div>
+
         <div class="carousel-inner">
 
-            <div class="carousel-item active" id="item1">
+            <div class="carousel-item active" id="item-1">
                 <div class="overlay">
-                    <img src="/images/5.jpg" class="d-block w-100" alt="...">
+                    <!-- <img src="/images/16548.jpg" class="d-block w-100" alt="..."> -->
                     <div class="carousel-caption d-none d-md-block">
-                        <h2>Building a better future</h2>
+                        <a href="#">
+                            <h5>Building a better future</h5>
+                            <i class="fa-solid fa-arrow-right fa-2xl" style="color: #ffffff;"></i>
+                        </a>
+                        
                     </div>
                 </div>
             </div>
 
-            <div class="carousel-item" id="item2">
+            <div class="carousel-item" id="item-2">
                 <div class="overlay">
-                    <img src="/images/17202.jpg" class="d-block w-100" alt="...">
+                    <!-- <img src="/images/16548.jpg" class="d-block w-100" alt="..."> -->
                     <div class="carousel-caption d-none d-md-block">
                         <p>Granite is:</p>
-                        <h2>Building better together</h2>
+                        <a href="#">
+                            <h5>Building better together</h5>
+                            <i class="fa-solid fa-arrow-right fa-2xl" style="color: #ffffff;"></i>
+                        </a>
+                        
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" id="item3">
+
+            <div class="carousel-item" id="item-3">
                 <div class="overlay">
-                    <img src="/images/16548.jpg" class="d-block w-100" alt="...">
+                    <!-- <img src="/images/16548.jpg" class="d-block w-100" alt="..."> -->
                     <div class="carousel-caption d-none d-md-block">
                         <p>Granite is:</p>
-                        <p>Building value together</p>
+                        <a href="#">
+                            <h5>Building value together</h5>
+                            <i class="fa-solid fa-arrow-right fa-2xl" style="color: #ffffff;"></i>
+                        </a>
+                        
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" id="item4">
-                <div class="overlay">
-                    <img src="/images/16708.jpg" alt="..." class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block">
-                        <p>Granite is:</p>
-                        <p>Building safely together</p>
-                    </div>
-                </div>
-            </div>
+
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>

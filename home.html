@@ -15,81 +15,104 @@
 
     <!-- CSS styles -->
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/general.css">    
-    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/general.css">  
+    <link rel="stylesheet" href="styles/slider.css">  
+    <link rel="stylesheet" href="styles/slider2.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
 </head>
 <body>
     <header>
         
-        
-        <div class="header">
-            <section class="container">
-                <div class="slider-wrapper">
+        <div class="page-header">
 
-                    <nav>
-                        <div class="logo">
-                            <img src="images/granite-logo-white.svg" alt="#">
-                        </div>
-                        <div class="menu">
-                            <li class="menu-item"><a href="#">Construction</a></li>
-                            <li class="menu-item"><a href="#">company</a></li>
-                            <li class="menu-item"><a href="#">materials</a></li>
-                            <li class="menu-item"><a href="#">careers</a></li>
-                            <li class="menu-item"><a href="#">brands</a></li>
-                            <li class="menu-item"><a href="#">newsroom</a></li>
-                            <li class="menu-item"><a href="#">locations</a></li>
-                            <li class="menu-item"><a href="#">investors</a></li>
-                        </div>
-                        <div class="search-icon">
-                            <img src="images/search-icon.svg" alt="#">
-                        </div>
-                    </nav>
-
-                    <div class="slider">
-                        <div class="slide" id="slide-1">
-                            <img src="/images/5.jpg" alt="" id="slide-1">
-                            <div class="caption">
-                                <h2>Building a better future</h2>
-                            </div>
-                        </div>
-
-                        <div class="slide" id="slide-2">
-                            <img src="/images/16708.jpg" alt="" id="slide-2">
-                            <div class="caption">
-                                <p>Granite is:</p>
-                                <h2>Building better together</h2>
-                            </div>
-                        </div>
-
-                        <div class="slide" id="slide-3">
-                            <img src="/images/16548.jpg" alt="" id="slide-3">
-                            <div class="caption">
-                                <p>Granite is:</p>
-                                <h2>Building value together</h2>
-                            </div>
-                        </div>
-
-                        <div class="slide" id="slide-4">
-                            <img src="/images/17202.jpg" alt="" id="slide-4">
-                            <div class="caption">
-                                <p>Granite</p>
-                                <h2>Building safely together</h2>
-                            </div>
-                        </div>
-                        
+            <section class="nav-link">
+                <nav>
+                    <div class="logo">
+                        <img src="images/granite-logo-white.svg" alt="#">
                     </div>
-
-
-                    <div class="slider-nav">
-                        <a href="#slide-1"></a>
-                        <a href="#slide-2"></a>
-                        <a href="#slide-3"></a>
-                        <a href="#slide-4"></a>
-                    </div> 
-                    </section>
-                </div>
-
+                    <div class="menu">
+                        <li class="menu-item"><a href="#">Construction</a></li>
+                        <li class="menu-item"><a href="#">company</a></li>
+                        <li class="menu-item"><a href="#">materials</a></li>
+                        <li class="menu-item"><a href="#">careers</a></li>
+                        <li class="menu-item"><a href="#">brands</a></li>
+                        <li class="menu-item"><a href="#">newsroom</a></li>
+                        <li class="menu-item"><a href="#">locations</a></li>
+                        <li class="menu-item"><a href="#">investors</a></li>
+                    </div>
+                    <div class="search-icon">
+                        <img src="images/search-icon.svg" alt="#">
+                    </div>
+                </nav>                 
             </section>
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+                </div>
+        
+                <div class="carousel-inner">
+
+        
+                    <div class="carousel-item active" id="item-1">
+                        <div class="overlay">
+                            <img src="/images/8_marco_müller_-_lighthouse.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="#">
+                                    <h5>Building a better future</h5>
+                                    <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item" id="item-2">
+                        <div class="overlay">
+                            <img src="/images/16548.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Granite is:</p>
+                                <a href="#">
+                                    <h5>Building better together</h5>
+                                    <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item" id="item-3">
+                        <div class="overlay">
+                            <img src="/images/17202.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Granite is:</p>
+                                <a href="#">
+                                    <h5>Building value together</h5>
+                                    <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+        
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
 
     </header>
 
@@ -103,7 +126,7 @@
         </section>
 
         <section class="section5">
-            <div class="row" id="first-row">
+            <div class="rows" id="first-row">
                 <div class="image">
                     <img src="images/ENR Top list California.jpg" alt="Rank">
                 </div>
@@ -118,7 +141,7 @@
                 </div>
             </div>
 
-            <div class="row" id="second-row">
+            <div class="rows" id="second-row">
                 <div class="content">
                     <h2>Granite Acquires Dickerson & Bowen</h2>
                     <p>
@@ -134,7 +157,7 @@
                 </div>
             </div>
 
-            <div class="row" id="third-row">
+            <div class="rows" id="third-row">
                 <div class="image">
                     <img src="images/PDB.jpg" alt="Rank">
                 </div>
@@ -149,7 +172,7 @@
                 </div>
             </div>
 
-            <div class="row" id="fourth-row">
+            <div class="rows" id="fourth-row">
                 <div class="content">
                     <h2>Join The Team</h2>
                     <p>
@@ -163,7 +186,7 @@
                 </div>
             </div>
 
-            <div class="row" id="fifth-row">
+            <div class="rows" id="fifth-row">
                 <div class="image">
                     <img src="images/ENR Top list California.jpg" alt="Rank">
                 </div>
@@ -180,60 +203,60 @@
     </main>
 
     <footer>
-        <div class="top">
+        <div class="footer-top">
             <div class="more-links">
-                <div class="column">
-                    <p class="link-header">company</p>
-                    <p>Leadership</p>
-                    <p>Core values</p>
-                    <p>Inclusive intensity</p>
-                    <p>Our brand</p>
-                    <p>History</p>
-                    <p>Safety</p>
-                    <p>Sustainability</p>
-                    <p>Contact us</p>
+                <div class="footer-column">
+                    <a href="#"><p class="link-header">company</p></a>
+                    <a href="#"><p>Leadership</p></a>
+                    <a href="#"><p>Core values</p></a>
+                    <a href="#"><p>Inclusive intensity</p></a>
+                    <a href="#"><p>Our brand</p></a>
+                    <a href="#"><p>History</p></a>
+                    <a href="#"><p>Safety</p></a>
+                    <a href="#"><p>Sustainability</p></a>
+                    <a href="#"><p>Contact us</p></a>
                 </div>
     
-                <div class="column">
-                    <p class="link-header">Construction</p>
-                    <p>Transport</p>
-                    <p>Water</p>
-                    <p>Specialty</p>
-                    <p>Federal</p>
-                    <p>Alternative Project Delivery</p>
+                <div class="footer-column">
+                    <a href="#"><p class="link-header">Construction</p></a>
+                    <a href="#"><p>Transport</p></a>
+                    <a href="#"><p>Water</p></a>
+                    <a href="#"><p>Specialty</p></a>
+                    <a href="#"><p>Federal</p></a>
+                    <a href="#"><p>Alternative Project Delivery</p></a>
                 </div>
     
-                <div class="column">
-                    <p class="link-header">Materials</p>
-                    <p>Aggregate</p>
-                    <p>Asphalt Concrete</p>
-                    <p>Recycled Materials</p>
+                <div class="footer-column">
+                    <a href="#"><p class="link-header">Materials</p></a>
+                    <a href="#"><p>Aggregate</p></a>
+                    <a href="#"><p>Asphalt Concrete</p></a>
+                    <a href="#"><p>Recycled Materials</p></a>
                 </div>
 
-                <div class="column">
-                    <p class="link-header">careers</p>
-                    <p>Professionals</p>
-                    <p>Craft + Skilled Trades</p>
-                    <p>Students + Graduates</p>
-                    <p>Submit Resume</p>
+                <div class="footer-column">
+                    <a href="#"><p class="link-header">careers</p></a>
+                    <a href="#"><p>Professionals</p></a>
+                    <a href="#"><p>Craft + Skilled Trades</p></a>
+                    <a href="#"><p>Students + Graduates</p></a>
+                    <a href="#"><p>Submit Resume</p></a>
                 </div>
     
-                <div class="column">
-                    <p class="link-header">Newsroom</p>
+                <div class="footer-column">
+                    <a href="#"><p class="link-header">Newsroom</p></a>
                 </div>
     
-                <div class="column">
-                    <p class="link-header">Quick Links</p>
-                    <p>CA Privacy Policy</p>
-                    <p>Human Rights Statement</p>
-                    <p>Human Rights Statement Spanish</p>
-                    <p>Supplier Code of Conduct</p>
-                    <p>Supplier Code of Conduct Spanish</p>
+                <div class="footer-column">
+                    <a href="#"><p class="link-header">Quick Links</p></a>
+                    <a href="#"><p>CA Privacy Policy</p></a>
+                    <a href="#"><p>Human Rights Statement</p></a>
+                    <a href="#"><p>Human Rights Statement Spanish</p></a>
+                    <a href="#"><p>Supplier Code of Conduct</p></a>
+                    <a href="#"><p>Supplier Code of Conduct Spanish</p></a>
                 </div>
             </div>
         </div>
 
-        <div class="bottom">
+        <div class="footer-bottom">
             <div class="rights">
                 <img src="images/Granite_Secondary_color.png" alt="logo">
                 <p>
@@ -242,13 +265,16 @@
                 </p>
             </div>
             <div class="socials">
-                <i class="fa-brands fa-facebook-f fa-xl" style="color: #4b4f54;"></i>
-                <i class="fa-brands fa-x-twitter fa-xl" style="color: #4b4f54;"></i>
-                <i class="fa-brands fa-linkedin-in fa-2xl" style="color: #4b4f54;"></i>
-                <i class="fa-brands fa-instagram fa-xl" style="color: #4b4f54;"></i>
-                <i class="fa-brands fa-youtube fa-2xl" style="color: #4b4f54;"></i>
+                <a href="#"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter fa-xl" ></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
 </body>
 </html>

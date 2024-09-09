@@ -2,13 +2,3 @@ body  {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-a:hover {
-    color: rgb(230, 215, 7);
-}
-
-button:hover {
-    
-    background: rgb(230, 215, 7);
-    color: white;
-}
