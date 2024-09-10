@@ -1,0 +1,217 @@
+/* Responsive Styles */
+
+/* For tablets and small desktops */
+@media (max-width: 992px) {
+    #item-1, #item-2, #item-3, #item-4 {
+        height: 29vh;
+    }
+
+    .slide {
+        margin-top: -450px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .menu, .search-icon {
+        visibility: hidden;
+
+    }
+
+    .bar {
+        visibility: visible;
+    }
+
+    .search-icon img {
+        width: 30px;
+    }
+
+    .section2 {
+        margin-top: 150px;
+    }
+
+    .section4 p {
+        padding: 50px 20px;
+    }
+
+    .rows {
+        grid-template-columns: 1fr;
+    }
+
+    .link-header > a > i {
+        visibility: visible;
+    }
+
+    .footer-column > .sublinks {
+        visibility: hidden;
+    }
+
+    .socials {
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    #item-1, #item-2, #item-3, #item-4 {
+        height: 40vh;
+    }
+
+    .logo > img {
+        width: 80px;
+    }
+
+    .menu > li > a {
+        font-size: 14px;
+    }
+
+    .menu, .search-icon {
+        visibility: hidden;
+    }
+
+    .bar {
+        visibility: visible;
+    }
+
+    .title > a > p {
+        font-size: 30px;
+    }
+
+    .section2 {
+        margin-top: 100px;
+    }
+
+    .section4 {
+        font-size: 24px;
+    }
+
+    .section4 p {
+        padding: 30px 15px;
+    }
+
+    .rows > .content > h2 {
+        font-size: 28px;
+    }
+
+    .rows > .content > p {
+        font-size: 16px;
+    }
+
+    .rows > .content > button {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    .footer-column {
+        width: 120px;
+    }
+
+    .link-header > a > i {
+        visibility: visible;
+    }
+
+    .footer-column > .sublinks {
+        visibility: hidden;
+    }
+
+    .footer-bottom {
+        display: block;
+    }
+
+    .footer-bottom > .rights {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .socials {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* For very small devices */
+@media (max-width: 576px) {
+    .logo > img {
+        width: 60px;
+    }
+
+    #item-1, #item-2, #item-3,{
+        height: 30vh;
+    }
+
+    .menu > li > a {
+        font-size: 12px;
+    }
+
+    .menu, .search-icon {
+        visibility: hidden;
+    }
+
+    .bar {
+        visibility: visible;
+    }
+
+    .title > a > p {
+        font-size: 24px;
+    }
+
+    .section2 {
+        margin-top: 50px;
+    }
+
+    .section4 {
+        font-size: 20px;
+    }
+
+    .section4 p {
+        padding: 20px 10px;
+    }
+
+    .rows > .content > h2 {
+        font-size: 24px;
+    }
+
+    .rows > .content > p {
+        font-size: 14px;
+    }
+
+    .rows > .content > button {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+
+    .footer-column {
+        /* width: 100px; */
+        display: flex;
+    }
+
+    .link-header > a > i {
+        visibility: visible;
+    }
+
+    .footer-column > .sublinks {
+        visibility: hidden;
+    }
+
+    .footer-bottom > .rights {
+        align-items: center;
+    }
+
+    .socials {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

@@ -7,7 +7,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
     z-index: 1;
     position: relative;
 }
@@ -17,7 +17,7 @@ nav {
 }
 
 .logo > img{
-    width: 200px;
+    width: 100px;
 }
 
 .menu {
@@ -42,6 +42,10 @@ nav {
 
 .search-icon img {
     width: 25px;
+}
+
+.bar {
+    visibility: hidden;
 }
 
 /* section2 styles */
@@ -198,3 +202,199 @@ footer {
 .socials > a:hover > .fa-brands{
     color: rgb(230, 215, 7);
 }
+
+
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+.nav-link {
+    /* margin-top: -400px; */
+}
+
+.logo > img {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu-item {
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu > li > a:hover {
+    color: rgb(230, 215, 7);
+}
+
+.search-icon img {
+    width: 25px;
+}
+
+/* Section2 Styles */
+.section2 {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.title > a > p {
+    display: block;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.title > a > p > img {
+    width: 40px;
+}
+
+/* Section4 Styles */
+.section4 {
+    margin: 0;
+    background-color: rgb(23, 85, 33);
+    font-size: 30px;
+    text-align: center;
+}
+
+.section4 p {
+    color: white;
+    padding: 50px 90px;
+}
+
+/* Section5 Styles */
+.rows {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 30px;
+    justify-content: center;
+}
+
+.rows > .image > img {
+    width: 100%;
+    height: 100%;
+}
+
+.rows > .content {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(177, 177, 177, 0.164);
+}
+
+.rows > .content > h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.836);
+}
+
+.rows > .content > p {
+    font-size: 20px;
+}
+
+.rows > .content > button {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 8px 29px;
+    background: transparent;
+    border: rgb(230, 215, 7) solid;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(177, 177, 177, 0.164);
+    padding: 20px 50px;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.more-links {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    margin-bottom: 40px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column > .link-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column > .link-header > a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.footer-column > .link-header > a:hover {
+    color: rgb(230, 215, 7);
+}
+
+.footer-column > .sublinks > a {
+    text-decoration: none;
+    color: #4b4f54;
+}
+
+.footer-column > .sublinks > a:hover {
+    color: rgb(230, 215, 7);
+}
+
+.link-header > a > i {
+    visibility: hidden;
+}
+
+
+.footer-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-bottom > .rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rights > img {
+    width: 80px;
+    height: 50px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 90px;
+}
+
+.socials > a {
+    color: #4b4f54;
+}
+
+.socials > a:hover > .fa-brands {
+    color: rgb(230, 215, 7);
+}
+
