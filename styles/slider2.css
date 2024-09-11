@@ -45,12 +45,8 @@
   }
   
   .carousel-item-overlay div h3{
-    display: grid;
-      color: white;
-      font-size: 60px;
-      margin: 0;
-      margin-left: 0px;
-      justify-items: center;
+    font-size: 45px;
+    text-transform: uppercase;
   }
   
   
@@ -58,26 +54,19 @@
   .carousel-item-overlay div h3 a{
     text-decoration: none;
     color: white;
-    display: grid;
-    justify-items: center;
   }
+
   
   .carousel-item-overlay div h3 a:hover{
-    color: orange;
+    color: rgb(230, 215, 7);
   }
   
-  
-  .carousel-item-overlay div h3 a img{
-    height: 70px;
-      width: 70px;
-  }
   
   
   .carousel-item-overlay div{
     color: white;
-      font-size: 30px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      margin-bottom: 4px;
+    font-size: 30px;
+    margin-bottom: 4px;
   }
   
   

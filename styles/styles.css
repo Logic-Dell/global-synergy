@@ -94,18 +94,6 @@ nav{
     transition: 3s;
 }
 
-/* nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 10px;
-    z-index: 1;
-    position: relative;
-} */
-
-.nav-link {
-    /* margin-top: -400px; */
-}
 
 .logo > img{
     width: 100px;
