@@ -190,7 +190,7 @@ nav{
     font-size: 35px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.836);
-    margin-bottom: -100px;
+    /* margin-bottom: -100px; */
 }
 
 .rows > .content > p {
@@ -203,7 +203,7 @@ nav{
     padding: 8px 29px;
     background: transparent;
     border: rgb(230, 215, 7) solid;
-    margin-top: -100px;
+    /* margin-top: -100px; */
     width: 300px;
 }
 
