@@ -3,14 +3,105 @@ body  {
     font-family: 'Poppins', sans-serif;
 }
 
-nav {
+nav{
+    /* background-color: rgba(0, 0, 0, 0); */
+    display: flex;
+    align-content: center;
+    padding-left: 150px;
+    padding-top: 0PX;
+    padding-bottom: 0PX;
+    background-position: fixed;
+    height: 70PX;
+    /* margin-top: -20vh; */
+    z-index: 1;
+    position: relative;
+}
+  
+.container-fluid{
+    display: flex; 
+}
+  
+  
+  .navbar-logo{
+    height: 180px;
+    width: 180px;
+    background-image: url('/images/Global\ Synegy.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 60px;
+    margin-top: 35px;  
+}
+  
+  
+.menu .ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 17PX;
+    font-weight: 700;
+  
+ }
+  
+.search-box{
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 29px;
+    margin-bottom: -59px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+  
+  /* .search-box:hover{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 29px;
+    margin-bottom: -59px;
+    height: 6vh;
+    display: flex;
+    align-items: end;
+    width: 350px;
+  } */
+  
+.icon{
+    margin-right: -35px;
+    width: 25px;
+    height: 25px;
+}
+.icon:hover{
+    margin-right: -150px;
+    width: 25px;
+    height: 25px;
+    color: green;
+    border: none;
+}
+  
+.input-field{
+    background-color: rgba(255, 255, 255, 0);
+    width: 50px;
+    height: 4vh;
+    border: none;
+    border-color: orange;
+    padding-left: 50px;
+    transition: 3s;
+}
+  
+.input-field:hover{
+    background-color: rgba(199, 20, 20, 0);
+    border: solid;
+    border-color: orange;
+    width: 300px;
+    height: 4vh;
+    border-width: 3px;
+    transition: 3s;
+}
+
+/* nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 10px;
     z-index: 1;
     position: relative;
-}
+} */
 
 .nav-link {
     /* margin-top: -400px; */

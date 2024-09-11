@@ -148,8 +148,13 @@
         width: 60px;
     }
 
-    #item-1, #item-2, #item-3,{
+    #item-1, #item-2, #item-3{
         height: 30vh;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
     }
 
     .menu > li > a {
@@ -198,6 +203,11 @@
         display: flex;
     }
 
+    .more-links {
+        display: flex;
+        flex-direction: column;
+    }
+
     .link-header > a > i {
         visibility: visible;
     }
@@ -214,4 +224,6 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+
+
 }
