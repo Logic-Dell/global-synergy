@@ -143,6 +143,8 @@ nav{
     width: 40px;
 }
 
+/* section3 styles*/
+
 
 /* section4 styles */
 .section4 {
@@ -286,6 +288,21 @@ footer {
 }
 
 
+
+
+/* Section4 Styles */
+.section4 {
+    margin: 0;
+    background-color: rgb(23, 85, 33);
+    font-size: 30px;
+    text-align: center;
+}
+
+.section4 p {
+    color: white;
+    padding: 50px 90px;
+}
+
 /* Section5 Styles */
 .rows {
     display: grid;
@@ -406,4 +423,3 @@ footer {
 .socials > a:hover > .fa-brands {
     color: rgb(230, 215, 7);
 }
-
