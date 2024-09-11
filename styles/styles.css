@@ -25,7 +25,7 @@ nav{
   .navbar-logo{
     height: 180px;
     width: 180px;
-    background-image: url('/images/Global\ Synegy.png');
+    background-image: url(/Global\ Synegy.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -457,8 +457,8 @@ footer {
 }
 
 .rights > img {
-    width: 80px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .socials {
