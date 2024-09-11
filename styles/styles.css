@@ -20,17 +20,12 @@ nav{
 .container-fluid{
     display: flex; 
 }
-  
-  
-.navbar-logo{
+
+.navbar-logo > img {
     height: 180px;
     width: 180px;
-    background-image: url(/Global\ Synegy.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-right: 60px;
-    margin-top: 35px;  
+    margin-top: 35px;
 }
   
   
