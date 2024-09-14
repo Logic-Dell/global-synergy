@@ -1,0 +1,89 @@
+.menu .menu-items li a{
+    color: rgb(0, 0, 0);
+    font-size: 17PX;
+    font-weight: 700;
+}
+
+.horizontal-line {
+    height: 5px;
+    background-color: green;
+}
+
+.background {
+    background-image: url('/images/16708.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.178);
+    width: 100%;
+    height: 500px;
+    color: white;
+    /* text-align: center; */
+}
+
+.path {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.overlay > .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    text-transform: uppercase;
+}
+
+
+/* section 4 styles */
+
+.section4 {
+    margin: 0;
+    background-color: rgb(23, 85, 33);
+    font-size: 19px;
+    text-align: justify;
+}
+
+.section4 p {
+    color: white;
+    padding: 40px 60px;
+    width: 95%;
+}
+
+/* persons styles */
+.persons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 20px;
+}
+
+.person {
+    width: 15em;
+    margin-left: 20px;
+}
+
+.person-image > img {
+    width: 15em;
+    padding-bottom: 10px;
+}
+
+.person-name > a {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: blue;
+    text-decoration: underline blue 2px;
+}
+
+.person-name > a:hover {
+    color: rgb(230, 215, 7);;
+}
+
+.person-role > p {
+    font-size: 18px;
+}
