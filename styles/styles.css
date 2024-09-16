@@ -189,12 +189,28 @@ nav{
 }
 
 /* section5 */
+.section5 {
+    width: 90%;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+/* .section5 {
+    width: 300px; 
+    height: 200px; 
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
 
 .rows {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 40px 0;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 }
 
