@@ -30,15 +30,62 @@ nav{
 }
   
   
-.menu .menu-items li a{
+.menu .menu-item {
     color: rgb(255, 255, 255);
     font-size: 15PX;
     font-weight: 700;
 }
 
-.menu .menu-items li a:hover {
-    color: rgb(230, 215, 7);
+.menu .menu-items li a {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
 }
+
+/* .menu .menu-item .dropdown li a{
+    color: rgb(0, 0, 0);
+    font-size: 15PX;
+    font-weight: 700;
+    background-color: #00000000;
+} */
+
+
+.dropdown-item {
+    color: black !important;
+  }
+  
+  /* Optional: Change hover color if needed */
+  .dropdown-item:hover {
+    background-color: #f8f9fa; /* light background on hover */
+    color: black !important;  /* keep text black on hover */
+  }
+
+  /* hover to dropdown */
+  /* Make dropdown show on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Ensure smooth display */
+}
+
+/* Adjust the hover behavior for the link */
+.navbar-nav .dropdown:hover .nav-link {
+    color: rgb(230, 215, 7);
+    font-weight: 700;
+}
+
+/* Optional: For smooth transition (if you want a fade-in effect) */
+.dropdown-menu {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+
+  /* hover to dropdown */
+
   
 .search-box{
     margin-left: 15px;
@@ -98,26 +145,6 @@ nav{
     width: 100px;
 }
 
-.menu {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;   
-}
-
-.menu-item {
-    margin-right: 30px;
-    text-transform: uppercase;
-}
-
-.menu > li > a {
-    text-decoration: none;
-    color: white;
-}
-
-.menu > li > a:hover {
-    color: rgb(230, 215, 7);
-}
-
 .search-icon img {
     width: 25px;
 }
@@ -125,6 +152,7 @@ nav{
 .bar {
     visibility: hidden;
 }
+
 
 /* section2 styles */
 
