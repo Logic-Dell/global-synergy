@@ -314,3 +314,14 @@ footer {
 .socials > a:hover > .fa-brands {
     color: rgb(230, 215, 7);
 }
+
+
+/* SCROLL TO TOP BUTTON STARTS*/
+#scrollTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Position from the bottom */
+    right: 20px; /* Position from the right */
+    z-index: 99; /* Sit on top */
+  }
+  /* SCROLL TO TOP BUTTON ENDS*/
