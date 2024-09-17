@@ -281,9 +281,27 @@ footer {
     color: rgb(230, 215, 7);
 }
 
-img {
-    max-width: 100%;
+
+/* SCROLL TO TOP BUTTON STARTS*/
+.scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+  }
+
+  #scrollTopBtn {
+    display: none; /* Hidden by default */
+    width: 50px; /* Set the width of the button */
+    height: 50px; /* Set the height of the button */
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  #scrollTopBtn img {
+    width: 100%; /* Make the image fill the button */
     height: auto;
-    display: block;
-    object-fit: contain;
-}
+    border-radius: 50%; /* Make the image circular */
+  }
+  /* SCROLL TO TOP BUTTON ENDS*/
