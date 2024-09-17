@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50-50-Div</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Main container for image and content */
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #f9f9f9;
+        }
+
+        /* 50-50 layout for image and content divs */
+        .image-div, .content-div {
+            flex: 1;
+            padding: 0px;
+        }
+
+        /* Ensure image takes full height and width, keeping aspect ratio */
+        .image-div img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px 0px 0px 5px;
+            display: block;
+            background-color: #ddd;
+            opacity: 0; /* Initial opacity for fade-in */
+            transform: scale(0.95); /* Initial smaller scale for zoom effect */
+            transition: opacity 1s ease, transform 1s ease; /* Smooth fade and zoom */
+        }
+
+        /* Content div with responsive typography */
+        .content-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 0px 5px 5px 0px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            opacity: 0; /* Initial opacity for slide-in */
+            transform: translateX(-50px); /* Initial off-screen position */
+            transition: opacity 1s ease, transform 0.7s ease; /* Smooth slide-in */
+        }
+
+        /* Responsive typography using clamp */
+        .content-div h2 {
+            font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+            margin-bottom: 10px;
+        }
+
+        .content-div p {
+            font-size: clamp(1rem, 2vw, 1.125rem);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Hover effects on Read More button */
+        .content-div .read-more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .content-div .read-more:hover {
+            background-color: #ffca2c;
+            transform: scale(1.05);
+        }
+
+        /* Ensure 50-50 width on larger screens */
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+            }
+
+            .image-div, .content-div {
+                flex: 1;
+                max-width: 50%;
+            }
+        }
+
+        /* Animations trigger when the page loads */
+        body.loaded .image-div img {
+            opacity: 1;
+            transform: scale(1); /* Scale to original size for zoom effect */
+        }
+
+        body.loaded .content-div {
+            opacity: 1;
+            transform: translateX(0); /* Slide into view */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Image div with lazy loading -->
+        <div class="image-div">
+            <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg" loading="lazy" alt="View of street from a glass window">
+        </div>
+
+        <!-- Text and button div -->
+        <div class="content-div">
+            <h2>Global Synergy Secures #1 Spot in Transportation</h2>
+            <p>For the second year in a row, Global Synergy has been ranked No. 1 in Transportation on Engineering News-Record (ENR) magazine's ENR California's 2024 Top Contractors List. ENR, a leading trade publication in the industry, evaluates the largest U.S.-based public and private companies across major market sectors.</p>
+            <a href="#" class="read-more">Read More →</a>
+        </div>
+    </div>
+
+    <script>
+        // Add 'loaded' class to body once page fully loads
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>
