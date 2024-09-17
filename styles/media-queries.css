@@ -35,11 +35,8 @@
         width: 30px;
     }
 
-    .section2 {
-        margin-top: 150px;
-    }
 
-    .section4 p {
+    .short-description p {
         padding: 50px 20px;
     }
 
@@ -88,29 +85,20 @@
         font-size: 30px;
     }
 
-    .section2 {
-        margin-top: 100px;
-    }
-
-    .section4 {
+    .short-description {
         font-size: 24px;
     }
 
-    .section4 p {
+    .short-description p {
         padding: 30px 15px;
     }
 
-    .rows > .content > h2 {
+    .rows > .content-div > h2 {
         font-size: 28px;
     }
 
-    .rows > .content > p {
+    .rows > .content-div > p {
         font-size: 16px;
-    }
-
-    .rows > .content > button {
-        font-size: 16px;
-        padding: 8px 20px;
     }
 
     .footer-column {
@@ -177,25 +165,20 @@
         margin-top: 50px;
     }
 
-    .section4 {
+    .short-description {
         font-size: 20px;
     }
 
-    .section4 p {
+    .short-description p {
         padding: 20px 10px;
     }
 
-    .rows > .content > h2 {
+    .rows > .content-div > h2 {
         font-size: 24px;
     }
 
-    .rows > .content > p {
+    .rows > .content-div > p {
         font-size: 14px;
-    }
-
-    .rows > .content > button {
-        font-size: 14px;
-        padding: 6px 15px;
     }
 
     .footer-column {
@@ -226,4 +209,66 @@
     }
 
 
+}
+
+
+/* Responsive layout adjustments */
+@media (min-width: 768px) {
+    .rows {
+        flex-direction: row;
+    }
+
+    .image-div, .content-div {
+        flex: 1;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    nav {
+        padding-left: 0; /* Adjust padding for small screens */
+    }
+
+    .search-box {
+        flex-direction: column; /* Stack search box elements vertically */
+    }
+
+    .search-box > i {
+        margin-bottom: 10px; /* Space between icon and input field */
+    }
+}
+
+/* Carousel Styles */
+.carousel {
+    margin-top: -70px;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+#carousel-item1 {
+    background-image: url(https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg);
+}
+
+#carousel-item2 {
+    background-image: url(https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#carousel-item3 {
+    background-image: url(https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#carousel-item4 {
+    background-image: url(https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.carousel-item-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h1, .carousel-caption p {
+    color: white;
 }
