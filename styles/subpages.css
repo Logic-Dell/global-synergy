@@ -43,12 +43,12 @@
 /*      leadership page styles       */
 
 /* section 4 styles */
-#l-section4 {
+#leader-description {
     font-size: 19px;
     text-align: justify;
 }
 
-#l-section4 p {
+#leader-description p {
     color: white;
     padding: 40px 60px;
     width: 95%;
@@ -89,24 +89,24 @@
 
 
 /*          core values page styles          */
-#cv-section4 {
+#cv-description {
     padding: 40px 10px;
     /* padding: 20px 30px; */
 }
 
-#cv-section4 h3 {
+#cv-description h3 {
     color: white;
     padding-top: 30px;
     letter-spacing: 2px;
 }
 
-#cv-section4 p {
+#cv-description p {
     font-size: 19px;
     padding-top: 15px;
     padding-bottom: 2px;
 }
 
-#cv-section4 button {
+#cv-description button {
     background-color: rgba(255, 255, 255, 0.226);
     color: white;
     border: none;
@@ -115,7 +115,7 @@
     font-size: 20px;
 }
 
-#cv-section4 button:hover {
+#cv-description button:hover {
     background-color: rgb(230, 215, 7);
 }
 
