@@ -107,7 +107,7 @@
     background-repeat:no-repeat;
     background-position:50%;
     background-size:50% 50%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
   }
   
   .carousel-control-next:focus,.carousel-control-next:hover,.carousel-control-prev:focus,.carousel-control-prev:hover{color:#fff;text-decoration:none;outline:0;opacity:.9}
