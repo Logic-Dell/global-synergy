@@ -63,30 +63,26 @@
 
 /* For mobile devices */
 @media (max-width: 768px) {
-    nav {
+    .navbar-logo > img {
+        height: 120px;
+        width: 120px;
+        margin-right: 20px;
+        margin-top: 20px;
+      }
+    
+      .menu .menu-items {
         flex-direction: column;
-        padding-top: 20px;
-    }
-
-    #item-1, #item-2, #item-3, #item-4 {
-        height: 40vh;
-    }
-
-    .logo > img {
-        width: 80px;
-    }
-
-    .menu > li > a {
-        font-size: 14px;
-    }
-
-    .menu, .search-icon {
-        visibility: hidden;
-    }
-
-    .bar {
-        visibility: visible;
-    }
+      }
+    
+      .search-box {
+        margin-left: 0;
+        width: 100%;
+      }
+    
+      .input-field {
+        width: 100%;
+        padding-left: 10px;
+      }
 
     .title > a > p {
         font-size: 30px;
