@@ -13,9 +13,8 @@ nav{
     padding-top: 0;
     padding-bottom: 0;
     background-position: fixed;
-    height: 10vh;
+    height: 9vh;
     width: 100%;
-
     z-index: 1;
     position: relative;
 }
