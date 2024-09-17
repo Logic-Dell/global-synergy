@@ -317,11 +317,25 @@ footer {
 
 
 /* SCROLL TO TOP BUTTON STARTS*/
-#scrollTopBtn {
+.scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+  }
+
+  #scrollTopBtn {
     display: none; /* Hidden by default */
-    position: fixed; /* Fixed position */
-    bottom: 20px; /* Position from the bottom */
-    right: 20px; /* Position from the right */
-    z-index: 99; /* Sit on top */
+    width: 50px; /* Set the width of the button */
+    height: 50px; /* Set the height of the button */
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  #scrollTopBtn img {
+    width: 100%; /* Make the image fill the button */
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
   }
   /* SCROLL TO TOP BUTTON ENDS*/
