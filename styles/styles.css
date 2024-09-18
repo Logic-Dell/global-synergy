@@ -13,10 +13,16 @@ nav{
     padding-left: 50%;
     padding-top: 0;
     padding-bottom: 0;
-    height: 8vh;
+    height: 10vh;
     width: 100%;
     z-index: 1000;
     transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.796); /* initial background color */
+}
+
+nav .scrolled {
+     background-color: rgba(36, 18, 173, 0); /*background color after scrolling */
 }
 
 
