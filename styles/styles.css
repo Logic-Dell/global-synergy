@@ -5,28 +5,21 @@ body  {
     font-family: 'Poppins', sans-serif;
 }
 
-nav{ 
-    position: sticky;
+nav { 
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding-left: 50%;
-    padding-top: 0;
-    padding-bottom: 0;
     height: 10vh;
     width: 100%;
-    z-index: 1000;
     transition: background-color 0.3s ease;
     transition: background-color 0.3s ease-in-out;
-    background-color: rgba(0, 0, 0, 0.796); /* initial background color */
+    background-color: rgba(0, 0, 0, 0.548); /* initial background color */
 }
 
 .scrolled {
-    background-color: rgb(36, 18, 173); /*background color after scrolling */
+    background-color: rgb(36, 18, 173);
 }
-
-
-  
+ 
 .container-fluid{
     display: flex; 
 }
@@ -34,6 +27,8 @@ nav{
 .navbar-logo > img {
     height: 10em;
     width: 10em;
+    padding-top: 20px;
+    margin-left: 2em;
 }
   
 
@@ -48,13 +43,13 @@ nav{
   }
   
   /* Optional: Change hover color if needed */
-  .dropdown-item:hover {
+.dropdown-item:hover {
     background-color: #f8f9fa; /* light background on hover */
     color: black !important;  /* keep text black on hover */
-  }
+}
 
-  /* hover to dropdown */
-  /* Make dropdown show on hover */
+/* hover to dropdown */
+/* Make dropdown show on hover */
 .navbar-nav .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; /* Ensure smooth display */
