@@ -79,7 +79,7 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 label {
@@ -92,14 +92,14 @@ label {
     width: 10em;
     height: 2em;
     border: 1px solid #ffffff;
+    outline: none;
     border-radius: 0.5em;
     padding: 0 1rem;
 }
 
 .input-icon {
-    position: absolute;
-    left: 80%;
-    
+    cursor: pointer;
+    padding-left: 1rem;
 }
   
 /* .input-field:hover{
