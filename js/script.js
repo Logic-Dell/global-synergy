@@ -17,3 +17,13 @@ window.addEventListener('scroll', () => {
         navbar.classList.remove('scrolled')
     }
 })
+
+document.getElementById('searchField').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        alert('Site under construction');
+    }
+});
+
+document.getElementById('searchIcon').addEventListener('click', function() {
+    alert('Site under construction');
+});
